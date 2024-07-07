@@ -1,0 +1,100 @@
+<mvc:View
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+    height="100%"
+	controllerName="desafioabap85.aprovarsolicitacao.controller.View1">
+
+	<Page
+		showFooter="true"
+		showHeader="false"
+		enableScrolling="false"
+		class="sapUiContentPadding"
+		id="idPage">
+
+		<Table id="idSolicitacaoSetexpandToMaterialTable"
+		mode="MultiSelect"
+		width="auto"
+		items="{
+			path: '/SolicitacaoSet',
+			sorter: {
+				path: 'Material',
+				descending:false
+			},
+			parameters:{
+				'expand':'ToMaterial,ToPrecoAtual'
+			}
+		}"
+		growingScrollToLoad="true"
+		growing="true"
+		updateFinished=".onSolicitacaoSetTableUpdateFinished">
+		<headerToolbar>
+			<OverflowToolbar id="id2OverflowToolbar">
+				<content>
+					<Title text="Solicitações" level="H2" id="idSolicitaesTitle"/>
+				</content>
+			</OverflowToolbar>
+		</headerToolbar>
+		<columns>
+			<Column
+				width="12em" id="idColumn">
+				<Text text="Id" id="idIdText"/>
+			</Column>
+			<Column id="id2Column">
+				<Text text="Material" id="idMaterial2Text"/>
+			</Column>
+			<Column id="id3Column">
+				<Text text="Preço atual" id="idPreoAtualText"/>
+			</Column>
+			<Column id="id4Column">
+				<Text text="Preço novo" id="idPreoNovoText2"/>
+			</Column>
+			<Column id="id5Column">
+				<Text text="Data de solicitação" id="idDataDeSolicitaoText" />
+			</Column>
+			<Column id="id6Column">
+				<Text text="Hora de solocitação" id="idHoraDeSolocitaoText"/>
+			</Column>
+		</columns>
+		<items>
+			<ColumnListItem vAlign="Middle" id="idColumnListItem">
+				<cells>
+					<ObjectIdentifier
+						title="{Id}" id="idObjectIdentifier"/>
+					<ObjectIdentifier
+						title="{Material}" id="idDescricaoObjectIdentifier"
+						text="{ToMaterial/Descricao} ({ToMaterial/CodigoExterno})"/>
+					<Text
+						text="{ToPrecoAtual/PrecoAtual}" id="idPrecoAtualText"/>
+					<Text
+						text="{PreçoNovo}" id="idPreoNovoText"/>
+					<Text
+						text="{
+							path:'DataSolicitacao',
+							type:'sap.ui.model.type.Date',
+							formatOptions:{
+								style:'medium'
+							}
+						}" id="idDataSolicitacaoText"/>
+					<Text
+						text="{
+							path:'HoraSolicitação',
+							type:'sap.ui.model.odata.type.Time'
+						}" id="idHoraSolicitaoText"/>
+					
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+		<footer>
+			<OverflowToolbar id="idOverflowToolbar">
+				<ToolbarSpacer id="idToolbarSpacer"/>
+				<Button type="Accept" text="Aprovar" id="idAprovarButton" press="onAprovar">
+				</Button>
+				<Button type="Reject" text="Rejeitar" id="idRejeitarButton" press="onRejeitar">
+				</Button>
+			</OverflowToolbar>
+		</footer>
+	</Page>
+
+		
+</mvc:View>
