@@ -99,3 +99,5 @@ Regra - Tomada de decisões:
 - Os aplicativos são do modelo Fiori Elements e utilizam o template “List Report”;
 - A lista do aplicativo exibe as informações das respectivas tabelas;
 - Cada solicitação nova é criada automaticamente com o status Pendente.
+
+
