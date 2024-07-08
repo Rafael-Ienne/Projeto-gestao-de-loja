@@ -118,7 +118,7 @@ Regra - Tomada de decisões:
 ## Tela de início do aplicativo "Aprovar solicitações de mudança de preço" antes e depois da aprovação 
 ![Tela de início antes e depois do aplicativo "Aprovar solicitações de mudança de preço"](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.abap/main/img/antes_e_depois_tela_aprovacao_solicitacao.png)
 
-Tela de início do aplicativo "Cadastro de preço de materiais" depois da aprovação da solicitação 
-![Tela de início do aplicativo "Cadastro de preço de materiais" depois da aprovação ](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.abap/main/img/tela_inicial_preco_apos_aprovacao.png)
+Tela de início do aplicativo "Cadastro de preço de materiais" antes e depois da aprovação da solicitação 
+![Tela de início do aplicativo "Cadastro de preço de materiais" antes e depois da aprovação da solicitação](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.abap/main/img/antes_e_depois_tela_preco.png)
 
 
