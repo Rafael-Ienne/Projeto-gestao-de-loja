@@ -121,4 +121,13 @@ Regra - Tomada de decisões:
 Tela de início do aplicativo "Cadastro de preço de materiais" antes e depois da aprovação da solicitação 
 ![Tela de início do aplicativo "Cadastro de preço de materiais" antes e depois da aprovação da solicitação](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.abap/main/img/antes_e_depois_tela_preco.png)
 
+## Especificação da tabela de Materiais no SAP 
+![Especificação da tabela de Materiais no SAP](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.fiori/main/img/especificacao_tabela_materiais.png)
+
+## Especificação da tabela de Preço no SAP 
+![Especificação da tabela de Preço no SAP](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.fiori/main/img/expecificacao_tabela_preco.png)
+
+## Especificação da tabela de Solicitações no SAP 
+![Especificação da tabela de Solicitações no SAP](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.fiori/main/img/especificacao_tabela_solicitacoes.png)
+
 
