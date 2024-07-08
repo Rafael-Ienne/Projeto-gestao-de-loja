@@ -118,3 +118,6 @@ Regra - Tomada de decisões:
 ## Tela de detalhes do aplicativo de "Cadastro de solicitações"
 ![Tela de detalhe do aplicativo Cadastro de solicitações](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.abap/main/img/tela_detalhes_cadastro_solicitacoes.png)
 
+## Tela de início antes e depois do aplicativo "Aprovar solicitações de mudança de preço"
+![Tela de início antes e depois do aplicativo "Aprovar solicitações de mudança de preço"](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.abap/main/img/antes_e_depois_tela_aprovacao_solicitacao.png)
+
