@@ -100,4 +100,21 @@ Regra - Tomada de decisões:
 - A lista do aplicativo exibe as informações das respectivas tabelas;
 - Cada solicitação nova é criada automaticamente com o status Pendente.
 
+## Tela inicial do aplicativo de "Cadastro de materiais"
+![Tela inicial cadastro de materiais](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.abap/main/img/tela_inicial_materiais.png)
+
+## Tela de detalhes do aplicativo de "Cadastro de materiais"
+![Tela de detalhes do aplicativo cadastro de materiais](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.abap/main/img/tela_detalhes_materiais.png)
+
+## Tela inicial do aplicativo de "Cadastro de preço de materiais"
+![Tela inicial Cadastro de preço de materiais](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.abap/main/img/tela_inicial_preco.png)
+
+## Tela de detalhes do aplicativo de "Cadastro de preço de materiais"
+![Tela de detalhes do aplicativo de "Cadastro de preço de materiais"](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.abap/main/img/tela_detalhes_preco.png)
+
+## Tela inicial do aplicativo de "Cadastro de solicitações"
+![Tela inicial Cadastro de solicitações](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.abap/main/img/tela_inicial_cadastro_solicitacao.png)
+
+## Tela de detalhes do aplicativo de "Cadastro de solicitações"
+![Tela de detalhe do aplicativo Cadastro de solicitações](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.abap/main/img/tela_detalhes_cadastro_solicitacoes.png)
 
