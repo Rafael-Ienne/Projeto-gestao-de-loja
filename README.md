@@ -11,22 +11,22 @@
 
 ## DESCRIÇÃO DA SOLUÇÃO PROPOSTA
 
-- App para o gerente da loja aprovar alteração de preço;
+- App para o gerente da loja aprovar solicitações de alteração de preço;
  
 - O app exibe uma lista com todos os produtos que precisam ser verificados, exibindo o preço atual e o preço novo;
  
-- Pelo app de Aprovar Alteração de Preço o gerente pode aprovar ou rejeitar a alteração de um ou vários produtos;
+- Pelo app de "Aprovar Alteração de Preço" o gerente pode aprovar ou rejeitar a alteração de um produto;
 
 - O preço será alterado no caixa somente após aprovação do gerente.
  
 
 ## COMPLEMENTO DA SOLUÇÃO 
 
-- Aplicativo para administrar Preço no caixa (listar, criar, alterar, excluir);
+- Aplicativo "Cadastro de preço de materiais" (listar, criar, alterar, excluir);
 
-- Aplicativo para administrar Produtos (listar, criar, alterar, excluir);
+- Aplicativo "Cadastro de materiais" (listar, criar, alterar, excluir);
  
-- Aplicativo para administrar Solicitações de alteração de preço.
+- Aplicativo "Cadastro de solicitações de alteração de preço".
   
 
 ## ORIENTAÇÃO TÉCNICA:
@@ -48,7 +48,6 @@ A tabela contendo o preço exibido no caixa contém as seguintes informações:
 
 - Moeda
 
- 
 
 A tabela para armazenar as solicitações de alteração de preço contém as seguintes informações:
 
@@ -75,7 +74,6 @@ A tabela para armazenar as solicitações de alteração de preço contém as se
 
 - Os produtos exibidos para o gerente são os que estão com status pendente na tabela de solicitações de alteração de preço.
 
- 
 
 ## REGRA - LEITURA DO PREÇO NOVO
 
@@ -86,7 +84,6 @@ A tabela para armazenar as solicitações de alteração de preço contém as se
 - A busca do material deve ser realizada pela propriedade ProductID​.
 
  
-
 Regra - Tomada de decisões:
 
 - Quando o gerente aprova ou rejeita uma solicitação de alteração de preço, a decisão que ele tomou é registrada na tabela de solicitações de alteração de preço;
@@ -117,4 +114,11 @@ Regra - Tomada de decisões:
 
 ## Tela de detalhes do aplicativo de "Cadastro de solicitações"
 ![Tela de detalhe do aplicativo Cadastro de solicitações](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.abap/main/img/tela_detalhes_cadastro_solicitacoes.png)
+
+## Tela de início do aplicativo "Aprovar solicitações de mudança de preço" antes e depois da aprovação 
+![Tela de início antes e depois do aplicativo "Aprovar solicitações de mudança de preço"](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.abap/main/img/antes_e_depois_tela_aprovacao_solicitacao.png)
+
+Tela de início do aplicativo "Cadastro de preço de materiais" depois da aprovação da solicitação 
+![Tela de início do aplicativo "Cadastro de preço de materiais" depois da aprovação ](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.abap/main/img/tela_inicial_preco_apos_aprovacao.png)
+
 
