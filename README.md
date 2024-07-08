@@ -130,4 +130,10 @@ Tela de início do aplicativo "Cadastro de preço de materiais" antes e depois d
 ## Especificação da tabela de Solicitações no SAP 
 ![Especificação da tabela de Solicitações no SAP](https://raw.githubusercontent.com/Rafael-Ienne/projeto_gestao_mercado.fiori/main/img/especificacao_tabela_solicitacoes.png)
 
-
+## Skills envolvidas
+- CDS Views;
+- Serviço OData baseado em CDS Views;
+- Fiori Freestyle e Elements;
+- Publicação de aplicativos no Fiori Launchpad;
+- Serviços na SEGW;
+- Consumo de API's externas.
