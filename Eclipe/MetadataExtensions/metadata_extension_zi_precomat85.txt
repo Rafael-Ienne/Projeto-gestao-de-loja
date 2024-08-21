@@ -1,0 +1,79 @@
+@Metadata.layer: #CORE
+
+annotate view zi_precomat85 with
+
+{
+
+
+
+  @UI.facet: [{
+
+  id:'geral1',
+
+  purpose:#STANDARD,
+
+  type:#IDENTIFICATION_REFERENCE,
+
+  label:'Dados gerais',
+
+  position:10
+
+   }]
+
+
+
+  @UI: {
+
+  lineItem: [{ position:10 }],
+
+  identification: [{ position:10, label:'Id do material' }],
+
+  selectionField: [{ position: 10 }]
+
+  }
+
+  @Consumption.valueHelpDefinition: [{ entity:{ name:'zi_mat85', element: 'Id' } }]
+
+  @EndUserText.label: 'Material'
+
+  Id;
+
+  @UI: {
+
+  lineItem: [{ position:20 }],
+
+  identification: [{ position:20, label:'Descrição' }]
+
+  }
+
+  @EndUserText.label: 'Descrição'
+
+  Descricao;
+
+  @UI: {
+
+  lineItem: [{ position:30 }],
+
+  identification: [{ position:20, label:'Preço do material' }]
+
+  }
+
+  @EndUserText.label: 'Preço'
+
+  Preco;
+
+  @UI: {
+
+  lineItem: [{ position:40 }],
+
+  identification: [{ position:30, label:'Moeda' }]
+
+  }
+
+  Moeda;
+
+
+
+
+
+}

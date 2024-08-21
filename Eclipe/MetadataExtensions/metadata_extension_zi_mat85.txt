@@ -1,0 +1,113 @@
+@Metadata.layer: #CORE
+
+annotate view zi_mat85 with
+
+{
+
+
+
+  @UI.facet: [{
+
+  id: 'geral',
+
+  purpose: #STANDARD,
+
+  type: #IDENTIFICATION_REFERENCE,
+
+  label: 'Dados gerais',
+
+  position: 10
+
+   }]
+
+
+
+
+
+  @UI: {
+
+  lineItem: [{ position:10 }],
+
+  identification: [{ position: 10, label: 'Id do material' }],
+
+  selectionField: [{position: 10}]
+
+  }
+
+  @Consumption.valueHelpDefinition: [{ entity: { name: 'zi_mat85', element: 'Id'} }]
+
+  Id;
+
+  @UI: {
+
+  lineItem: [{ position:20 }],
+
+  identification: [{ position: 20, label: 'Descrição do material' }],
+
+  selectionField: [{position: 20}]
+
+  }
+
+  @EndUserText.label: 'Descrição'
+
+  Descricao;
+
+  @UI: {
+
+  lineItem: [{ position:30 }],
+
+  identification: [{ position: 30, label: 'Marca' }],
+
+  selectionField: [{position: 30}]
+
+  }
+
+  Marca;
+
+  @UI: {
+
+  lineItem: [{ position:60 }],
+
+  identification: [{ position: 60, label: 'Barcode' }]
+
+  }
+
+  Barcode;
+
+  @UI: {
+
+  lineItem: [{ position:40 }],
+
+  identification: [{ position: 40, label: 'Peso' }]
+
+  }
+
+  Peso;
+
+  @UI: {
+
+  lineItem: [{ position:50 }],
+
+  identification: [{ position: 50, label: 'Unidade de medida' }]
+
+  }
+
+  @EndUserText.label: 'Unidade de medida'
+
+  Uom;
+
+  @UI: {
+
+  lineItem: [{ position:70 }],
+
+  identification: [{ position: 70, label: 'Código externo' }]
+
+  }
+
+  @EndUserText.label: 'Código externo'
+
+  CodigoExterno;
+
+
+
+}

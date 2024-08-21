@@ -1,0 +1,125 @@
+@Metadata.layer: #CORE
+
+annotate view ZI_CADSOLI85_tp with
+
+{
+
+  @UI.facet: [{
+
+  id: 'geral3',
+
+  purpose: #STANDARD,
+
+  type: #IDENTIFICATION_REFERENCE,
+
+  label: 'Dados gerais',
+
+  position: 10
+
+   }]
+
+
+
+  @UI: {
+
+      lineItem: [{ position:10 }],
+
+      identification: [{ position: 10, label: 'Id da solicitação' }]
+
+  }
+
+  @EndUserText.label: 'Id'
+
+  Id;
+
+  @UI: {
+
+  lineItem: [{ position:20 }],
+
+  identification: [{ position: 20, label: 'Data solicitação' }]
+
+  }
+
+  @EndUserText.label: 'Data de solicitação'
+
+  data_solicitacao;
+
+  @UI: {
+
+  lineItem: [{ position:30 }],
+
+  identification: [{ position: 30, label: 'Hora da solicitação' }]
+
+  }
+
+  @EndUserText.label: 'Hora de solicitação'
+
+  hora_solicitacao;
+
+  @UI: {
+
+  lineItem: [{ position:40 }],
+
+  identification: [{ position: 40, label: 'Código do material' }],
+
+  selectionField: [{ position:10 }]
+
+  }
+
+  @EndUserText.label: 'Material'
+
+  @Consumption.valueHelpDefinition: [{ entity:{ name: 'zc_mat85', element: 'Id' } }]
+
+  Material;
+
+  @UI: {
+
+  lineItem: [{ position:50 }],
+
+  identification: [{ position: 50, label: 'Status da solicitação' }]
+
+  }
+
+  @EndUserText.label: 'Status'
+
+  Status;
+
+  @UI: {
+
+  lineItem: [{ position:60 }],
+
+  identification: [{ position: 60, label: 'Data da aprovação' }]
+
+  }
+
+  @EndUserText.label: 'Data de aprovação'
+
+  data_aprovacao;
+
+  @UI: {
+
+  lineItem: [{ position:70 }],
+
+  identification: [{ position: 70, label: 'Hora da aprovação' }]
+
+  }
+
+  @EndUserText.label: 'Hora de aprovação'
+
+  hora_aprovacao;
+
+  @UI: {
+
+  lineItem: [{ position:80 }],
+
+  identification: [{ position: 80, label: 'Aprovador' }]
+
+  }
+
+  @EndUserText.label: 'Aprovador'
+
+  Aprovador;
+
+
+
+}
