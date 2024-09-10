@@ -66,7 +66,7 @@ A tabela para armazenar as solicitações de alteração de preço contém as se
 - Hora que o gerente tomou ação.
 
 
-## TELA DO APLICATIVO DE APROVAÇÃO
+## TELA DO APLICATIVO DE APROVAÇÃO:
 
 - Aplicativo do modelo Freestyle;
 
@@ -75,7 +75,7 @@ A tabela para armazenar as solicitações de alteração de preço contém as se
 - Os produtos exibidos para o gerente são os que estão com status pendente na tabela de solicitações de alteração de preço.
 
 
-## REGRA - LEITURA DO PREÇO NOVO
+## REGRA - LEITURA DO PREÇO NOVO:
 
 - O preço novo vem do Northwind Services;
 
