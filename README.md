@@ -2,7 +2,7 @@
 
 ## OBJETIVO:
 
-- Criar um app para ser utilizado pelo gerente loja, para aprovar a alteração do preço do produto no caixa .
+- Criar um app para ser utilizado pelo gerente de uma loja, a fim de aprovar ou não a alteração do preço do produto no caixa .
 
 ## JUSTIFICATIVA:
 - O preço de um produto pode ser alterado mais de uma vez durante o dia, gerando divergência entre o preço da etiqueta na gondola e o preço exibido no caixa. Isso gera transtorno para o cliente que na hora de pagar vê no caixa um preço diferente do anunciado na etiqueta;
@@ -12,8 +12,6 @@
 ## DESCRIÇÃO DA SOLUÇÃO PROPOSTA
 
 - App para o gerente da loja aprovar solicitações de alteração de preço;
- 
-- O app exibe uma lista com todos os produtos que precisam ser verificados, exibindo o preço atual e o preço novo;
  
 - Pelo app de "Aprovar Alteração de Preço" o gerente pode aprovar ou rejeitar a alteração de um produto;
 
@@ -42,11 +40,11 @@
 
 A tabela contendo o preço exibido no caixa contém as seguintes informações:
 
-- Código do produto
+- Código do produto;
 
-- Preço do produto
+- Preço do produto;
 
-- Moeda
+- Moeda.
 
 
 A tabela para armazenar as solicitações de alteração de preço contém as seguintes informações:
